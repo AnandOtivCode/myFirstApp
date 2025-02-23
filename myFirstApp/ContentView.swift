@@ -13,7 +13,15 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Anand Otiv")
+            //Changes Font
+                .font(.subheadline)
+            //Changes Font Weight
+                .fontWeight(.bold)
+            //Changes Font Color
+                .foregroundColor(Color.purple)
+            //Alligns Text in the centre
+                .multilineTextAlignment(.center)
         }
         .padding()
     }
