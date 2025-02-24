@@ -13,7 +13,8 @@ struct ContentView: View {
     var body: some View {
         
         ZStack{
-            
+            let backgroundColor = Color("myBackground")
+            backgroundColor.ignoresSafeArea(edges: .all)
             
             VStack(alignment: .trailing) {
                 Image(systemName: "globe")
